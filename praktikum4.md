@@ -14,6 +14,7 @@ Selles praktikumis sain katsetada kasutajaõigustega ning turvameetmetega. Tegin
 Ajavööndi muutmiseks on vaja SYSTEM õigusi, administraatoriõigustega pole lubatud seda muuta.
 
 Ülesanne 4-5:
+
 <img width="384" height="259" alt="Kuvatõmmis 2026-10-10 144029" src="https://github.com/user-attachments/assets/dee3168a-b010-43ca-8bc9-ad508d883288" />
 <img width="395" height="278" alt="Kuvatõmmis 2026-10-10 144000" src="https://github.com/user-attachments/assets/9e0b0c46-cefa-4625-9963-6b0821122089" />
 <img width="383" height="261" alt="Kuvatõmmis 2026-10-10 143707" src="https://github.com/user-attachments/assets/2c6b1aaf-5a0a-4da4-a6dc-2978ab71dac0" />
