@@ -1,4 +1,4 @@
-VI praktikum: Failiõigused Linuxis
+# VI praktikum: Failiõigused Linuxis
 Selles praktikumis sain katsetada failiõiguste seadistamist Linuxis. Sain teha gruppe ja grupisiseste liikmete õigustega mängida. Vahepeal lakkas terminal töötamast, aga sain ikkagi korda. Kokku läks umbes 2h. 
 
 6-1:
@@ -16,10 +16,13 @@ Turvalisus: Kasutaja saab luua faile muretsemata, et mõni teine samas üldises 
 Kui on vaja teha teise kasutajaga koostööd, lisatakse mõlemad kasutajad eraldi ühisesse projekti-gruppi ning muudetakse kausta või faili gruppi (chgrp). Tänu umask 0002-le saavad nüüd mõlemad projekti liikmed faile vabalt muuta, ilma et peaks iga kord õigusi manuaalselt chmod-iga avama.
 
 6-4:
+
 <img width="374" height="134" alt="image" src="https://github.com/user-attachments/assets/a4c5526e-b360-4199-8e5f-bcabd276ac64" />
 
 6-5:
+
 <img width="350" height="69" alt="image" src="https://github.com/user-attachments/assets/bd43b4d8-eb67-4dd0-abff-d8011b99aa00" />
+
 setuid võimaldab tavakasutajal käivitada programmi selle omaniku õigustes. Seda on vaja olukordades, kus tavakasutajal on vaja teha spetsiifilist toimingut, mis nõuab kõrgemaid privileege, ilma et kasutajale tuleks anda otsest ligipääsu kaitstud failidele või süsteemi admin-õigusi.
 
 6-6:
