@@ -1,4 +1,5 @@
 # IX praktikum: Teenused ja optimeerimine
+Selles praktikumis sain uuendada ubuntut ning katsetada keskkonnamuutujatega. Sain ka eemaldada mittevajalikku tarkvara ning katsetada taustateenustega. Kokku võttis see praktikum aega umbes 3h. 
 
 9-1:
 PWD=/home/katriin
@@ -32,3 +33,5 @@ Kui kasutaja soovib kasutada Windowsi võrguskeemi ja näha kohalikus võrgus ol
 <img width="654" height="349" alt="image" src="https://github.com/user-attachments/assets/4b33e7ce-9e7d-4824-b582-ce8fc81195b6" />
 
 9-8:
+
+<img width="641" height="460" alt="image" src="https://github.com/user-attachments/assets/3bce2596-4d19-46f8-99a8-191e1b32c5f3" />
