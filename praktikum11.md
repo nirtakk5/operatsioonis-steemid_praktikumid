@@ -19,7 +19,9 @@ eth0: (staatiline IP) 192.168.29.66/26, võrgumask 255.255.255.192, võrguaadres
 11-2:
 
 <img width="479" height="566" alt="image" src="https://github.com/user-attachments/assets/4000fa23-4ab7-459c-ac72-436a5934d779" />
+
 Masinal ruuter2 on seadistatud ainult kaks sisevõrgu aadressi, mistõttu teab tema marsruutimistabel teed ainult nende kahe kohaliku alamvõrguni. Kuna me ei lisanud seadistusfaili gateway rida ega ole veel seadistanud staatilisi marsruute, ei oska ruuter2 saata pakette avalikku internetti (8.8.8.8) ja tuum katkestab päringu kohe veateatega
+
 
 11-3:
 Ilma NAT-ita (MASQUERADE) saadab ruuter1 paketid välisvõrku edasi nii, et nende lähteaadressiks jääb ruuter2 või klient privaatne sisevõrgu IP-aadress, mis pole avalikus internetis ega välistes lüüsides marsruuditav. Sihtserver (8.8.8.8) või vahepealne VirtualBoxi NAT-lüüs ei tea, kuhu vastuspaketid privaataadressile tagasi saata, mistõttu need visatakse minema. Kui ruuter1 peal aktiveeriti MASQUERADE, asendas ta väljuvate pakettide lähteaadressi oma välise liidese (eth0) IP-aadressiga, mistõttu jõudsid vastused tagasi ruuter1-ni ja sealt edasi õige sisevõrgu masinani.
